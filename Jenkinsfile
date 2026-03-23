@@ -4,7 +4,7 @@ pipeline{
 		stage('Checkout'){
 			steps{
 				git branch:'main',
-				url:'https://github.com/ro45che-ux/mavenPipeline10.git'
+				url:'https://github.com/havishr03/JenkinsPipeline1.git'
 			}
 		}
 		stage('Build'){
